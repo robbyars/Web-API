@@ -42,9 +42,9 @@ namespace Bootcamp20.API.BussineesLogic.Service.Master
             return _itemrepo.Search(name);
         }
 
-        public bool Update(ItemParam itemparam)
+        public bool Update(int? id, ItemParam itemparam)
         {
-            return _itemrepo.Update(itemparam);
+            return _itemrepo.Update(id, itemparam);
         }
     }
 }

@@ -57,9 +57,9 @@ namespace Bootcamp20.API.Common.Repository.Master
             return _context.Item.Include("Supplier").Where(x => x.Name.Contains(name) && x.IsDelete == false).ToList();
         }
 
-        public bool Update(ItemParam itemparam)
+        public bool Update(int? id, ItemParam itemparam)
         {
-            Item item = _context.Item.SingleOrDefault(x => x.Id == itemparam.Id && x.IsDelete == false);
+            Item item = _context.Item.SingleOrDefault(x => x.Id == id && x.IsDelete == false);
             item.Supplier = _context.Supplier.Find(Convert.ToInt16(itemparam.Supplier));
             item.Update(itemparam);
             _context.Entry(item).State = EntityState.Modified;

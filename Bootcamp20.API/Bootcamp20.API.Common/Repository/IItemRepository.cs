@@ -14,7 +14,7 @@ namespace Bootcamp20.API.Common.Repository
         List<Item> Search(string name);
         ItemParam Get(int? id);
         bool Insert(ItemParam itemparam);
-        bool Update(ItemParam itemparam);
+        bool Update(int? id, ItemParam itemparam);
         bool Delete(int? id);
     }
 }
