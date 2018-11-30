@@ -55,6 +55,7 @@ namespace Bootcamp20.API.Controllers
                 Name = x.Name,
                 Price = x.Price,
                 Stock = x.Stock,
+                Supplier = x.Supplier.Name,
                 IsDelete = x.IsDelete,
                 CreateDate = Convert.ToDateTime(x.CreateDate),
                 UpdateDate = Convert.ToDateTime(x.UpdateDate),
@@ -74,7 +75,7 @@ namespace Bootcamp20.API.Controllers
         [HttpPut]
         public void Put(int? id, ItemParam itemparam)
         {
-            _itemService.Update(itemparam);
+            _itemService.Update(id,itemparam);
 
         }
 
