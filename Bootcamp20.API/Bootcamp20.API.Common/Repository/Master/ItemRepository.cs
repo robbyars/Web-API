@@ -15,7 +15,7 @@ namespace Bootcamp20.API.Common.Repository.Master
         bool status = false;
         public bool Delete(int? id)
         {
-            var item = Get(id);
+            var item = _context.Item.Find(id);
             item.IsDelete = true;
             item.DeleteDate = DateTimeOffset.Now.LocalDateTime;
             _context.Entry(item).State = EntityState.Modified;
