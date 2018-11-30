@@ -72,7 +72,7 @@ namespace Bootcamp20.API.Controllers
 
         // PUT: api/Items/5
         [HttpPut]
-        public void Put(ItemParam itemparam)
+        public void Put(int? id, ItemParam itemparam)
         {
             _itemService.Update(itemparam);
 
