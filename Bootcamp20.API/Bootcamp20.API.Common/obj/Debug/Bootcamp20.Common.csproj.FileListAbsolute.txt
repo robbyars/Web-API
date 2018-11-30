@@ -1,0 +1,12 @@
+E:\C#\visual studio 2015\Projects\Bootcamp20.API\Bootcamp20.API.Common\obj\Debug\Bootcamp20.Common.csprojResolveAssemblyReference.cache
+E:\C#\visual studio 2015\Projects\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\Bootcamp20.API.Common.exe.config
+E:\C#\visual studio 2015\Projects\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\Bootcamp20.API.Common.exe
+E:\C#\visual studio 2015\Projects\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\Bootcamp20.API.Common.pdb
+E:\C#\visual studio 2015\Projects\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\DataAccess.exe
+E:\C#\visual studio 2015\Projects\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\EntityFramework.dll
+E:\C#\visual studio 2015\Projects\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\EntityFramework.SqlServer.dll
+E:\C#\visual studio 2015\Projects\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\DataAccess.pdb
+E:\C#\visual studio 2015\Projects\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\EntityFramework.xml
+E:\C#\visual studio 2015\Projects\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\EntityFramework.SqlServer.xml
+E:\C#\visual studio 2015\Projects\Bootcamp20.API\Bootcamp20.API.Common\obj\Debug\Bootcamp20.API.Common.exe
+E:\C#\visual studio 2015\Projects\Bootcamp20.API\Bootcamp20.API.Common\obj\Debug\Bootcamp20.API.Common.pdb
