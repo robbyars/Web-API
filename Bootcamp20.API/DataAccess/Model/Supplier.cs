@@ -34,6 +34,7 @@ namespace DataAccess.Model
         public Supplier(SupplierParam supplierparam)
         {
             this.Name = supplierparam.Name;
+            this.IsDelete = false;
             this.CreateDate = DateTimeOffset.Now.LocalDateTime;
         }
         public void Update(SupplierParam supplierparam)
