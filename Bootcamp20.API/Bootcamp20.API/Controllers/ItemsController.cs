@@ -38,7 +38,7 @@ namespace Bootcamp20.API.Controllers
             });
             return Json(list_item);
         }
-
+        
         // GET: api/Items/5
         [HttpGet]
         public ItemParam Get(int id)
