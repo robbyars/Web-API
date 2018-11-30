@@ -43,6 +43,7 @@ namespace Bootcamp20.API.Common.Repository.Master
         {
             Item item = new Item(itemparam);
             item.Supplier = _context.Supplier.Find(Convert.ToInt16(itemparam.Supplier));
+            //item.Supplier = _context.Supplier.SingleOrDefault(x => x.Id == itemparam.Supplier);
             _context.Item.Add(item);
             var result = _context.SaveChanges();
             if (result > 0)

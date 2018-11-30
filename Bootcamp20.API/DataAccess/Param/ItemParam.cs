@@ -22,6 +22,7 @@ namespace DataAccess.Param
         public ItemParam(Item item)
         {
             this.Id = item.Id;
+            this.Supplier = item.Supplier_Id.ToString();
             this.Name = item.Name;
             this.Price = item.Price;
             this.Stock = item.Stock;
