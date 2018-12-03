@@ -43,6 +43,11 @@ namespace Bootcamp20.API.BussineesLogic.Service.Master
             return _supplierRepo.Search(name);
         }
 
+        public List<Supplier> SearchByDate(string month)
+        {
+            return _supplierRepo.SearchByDate(month);
+        }
+
         public bool Update(SupplierParam supplierparam)
         {
             return _supplierRepo.Update(supplierparam);

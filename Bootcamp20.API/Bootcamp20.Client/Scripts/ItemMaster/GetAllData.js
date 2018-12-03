@@ -183,32 +183,36 @@ function Delete(Id){
 
 function Search() {
     var item = new Object($('#cari').val());
-    console.log(item);
-    $.ajax({
-        url: 'http://localhost:1349/api/Items/Search/'+item,
-        dataType: 'json',
-        type: 'GET',
-        success: function (data) {
-            var html = '';
-            for (var i = 0; i < data.length; i++) {
-                html = html + '<tr>';
+    if (item.length == 0) {
+        swal("Oops", "Fill in the blank!", "Error");
+    } else {
+        $.ajax({
+            url: 'http://localhost:1349/api/Items/Search/' + item,
+            dataType: 'json',
+            type: 'GET',
+            success: function (data) {
+                var html = '';
+                for (var i = 0; i < data.length; i++) {
+                    html = html + '<tr>';
 
-                html = html + '<td>' + data[i].Name + '</td>';
+                    html = html + '<td>' + data[i].Name + '</td>';
 
-                html = html + '<td>' + data[i].Price + '</td>';
+                    html = html + '<td>' + data[i].Price + '</td>';
 
-                html = html + '<td>' + data[i].Stock + '</td>';
+                    html = html + '<td>' + data[i].Stock + '</td>';
 
-                html = html + '<td>' + data[i].Supplier + '</td>';
+                    html = html + '<td>' + data[i].Supplier + '</td>';
 
-                html = html + '<td><button onclick="return GetById(' + data[i].Id + ')">Edit</button>';
+                    html = html + '<td><button onclick="return GetById(' + data[i].Id + ')">Edit</button>';
 
-                html = html + '| <button onclick="return Delete(' + data[i].Id + ')">Delete</button>';
+                    html = html + '| <button onclick="return Delete(' + data[i].Id + ')">Delete</button>';
 
-                html = html + '</tr>';
+                    html = html + '</tr>';
+                }
+                $('#tBody').html(html);
             }
-            $('#tBody').html(html);
-        }
 
-    });
+        });
+    }
+    
 }

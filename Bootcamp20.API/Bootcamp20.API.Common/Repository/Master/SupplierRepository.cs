@@ -69,5 +69,11 @@ namespace Bootcamp20.API.Common.Repository.Master
         {
             return _context.Supplier.Where(x => x.Name.Contains(name) && x.IsDelete==false).ToList();
         }
+
+        public List<Supplier> SearchByDate(string month)
+        {
+            int months = Convert.ToInt16(month);
+            return _context.Supplier.Where(x => x.CreateDate.Value.Month == months && x.IsDelete == false).ToList();
+        }
     }
 }
