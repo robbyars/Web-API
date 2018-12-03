@@ -6,7 +6,15 @@
 <h2>Index Supplier</h2>
 <div class="container">
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" onclick="SaveTampil()">Create New</button>
-    <input type="text" class="form-control pull-right" placeholder="Search" id="cari"/>
+    <br/>
+    <input type="text" class="form-control  col-lg-offset-9" placeholder="Search (Choose Find Options)" id="cari" title="Search (Choose Find Options)"/>
+    <br/>
+    <select id="pilih" class="form-control col-lg-offset-9" onclick="Jenis()">
+        <option value="0" selected id="opt1">Choose Find Options</option>
+        <option value="1">Name</option>
+        <option value="2">Join Date</option>
+    </select>
+    <br/>
     <button type="button" class="btn btn-primary pull-right" onclick="Search()">Find</button>
         <table class="table table-hover">
             <thead>

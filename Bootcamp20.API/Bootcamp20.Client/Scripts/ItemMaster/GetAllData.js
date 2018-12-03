@@ -184,6 +184,7 @@ function Delete(Id){
 function Search() {
     debugger;
     var item = new Object($('#cari').val());
+<<<<<<< HEAD
     var searchby = new Object($('#searchby').val());
     console.log(item);
     $.ajax({
@@ -194,23 +195,38 @@ function Search() {
             var html = '';
             for (var i = 0; i < data.length; i++) {
                 html = html + '<tr>';
+=======
+    if (item.length == 0) {
+        swal("Oops", "Fill in the blank!", "Error");
+    } else {
+        $.ajax({
+            url: 'http://localhost:1349/api/Items/Search/' + item,
+            dataType: 'json',
+            type: 'GET',
+            success: function (data) {
+                var html = '';
+                for (var i = 0; i < data.length; i++) {
+                    html = html + '<tr>';
+>>>>>>> 8a7194c39ae2802ba0cdcbe8f50cea81f4a84040
 
-                html = html + '<td>' + data[i].Name + '</td>';
+                    html = html + '<td>' + data[i].Name + '</td>';
 
-                html = html + '<td>' + data[i].Price + '</td>';
+                    html = html + '<td>' + data[i].Price + '</td>';
 
-                html = html + '<td>' + data[i].Stock + '</td>';
+                    html = html + '<td>' + data[i].Stock + '</td>';
 
-                html = html + '<td>' + data[i].Supplier + '</td>';
+                    html = html + '<td>' + data[i].Supplier + '</td>';
 
-                html = html + '<td><button onclick="return GetById(' + data[i].Id + ')">Edit</button>';
+                    html = html + '<td><button onclick="return GetById(' + data[i].Id + ')">Edit</button>';
 
-                html = html + '| <button onclick="return Delete(' + data[i].Id + ')">Delete</button>';
+                    html = html + '| <button onclick="return Delete(' + data[i].Id + ')">Delete</button>';
 
-                html = html + '</tr>';
+                    html = html + '</tr>';
+                }
+                $('#tBody').html(html);
             }
-            $('#tBody').html(html);
-        }
 
-    });
+        });
+    }
+    
 }

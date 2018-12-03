@@ -12,6 +12,7 @@ namespace Bootcamp20.API.Common.Repository
     {
         List<Supplier> Get();
         List<Supplier> Search(string name);
+        List<Supplier> SearchByDate(string month);
         SupplierParam Get(int? id);
         bool Insert(SupplierParam supplierparam);
         bool Update(SupplierParam supplierparam);

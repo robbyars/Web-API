@@ -60,6 +60,21 @@ namespace Bootcamp20.API.Controllers
             return Json(list_supplier);
         }
 
+        [HttpGet]
+        public System.Web.Http.Results.JsonResult<IEnumerable<SupplierParam>> SearchByDate(string month)
+        {
+            IEnumerable<SupplierParam> list_supplier = _supplierService.SearchByDate(month).Select(x => new SupplierParam
+            {
+                Id = x.Id,
+                Name = x.Name,
+                IsDelete = x.IsDelete,
+                CreateDate = Convert.ToDateTime(x.CreateDate),
+                UpdateDate = Convert.ToDateTime(x.UpdateDate),
+                DeleteDate = Convert.ToDateTime(x.DeleteDate)
+            });
+            return Json(list_supplier);
+        }
+
         // POST: api/Suppliers
         [HttpPost]
         public void Post(SupplierParam supplierparam)
