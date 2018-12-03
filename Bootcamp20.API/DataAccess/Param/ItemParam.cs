@@ -13,6 +13,7 @@ namespace DataAccess.Param
         public string Name { get; set; }
         public int Price { get; set; }
         public int Stock { get; set; }
+        public int searchBy { get; set; }
         public DateTime? CreateDate { get; set; }
         public DateTime? UpdateDate { get; set; }
         public DateTime? DeleteDate { get; set; }

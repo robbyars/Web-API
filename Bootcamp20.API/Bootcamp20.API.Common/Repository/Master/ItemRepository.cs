@@ -53,9 +53,23 @@ namespace Bootcamp20.API.Common.Repository.Master
             return status;
         }
 
-        public List<Item> Search(string name)
+        public List<Item> Search(ItemParam itemparam)
         {
-            return _context.Item.Include("Supplier").Where(x => x.Name.Contains(name) && x.IsDelete == false).ToList();
+            if(itemparam.searchBy == 1)
+            {
+                return _context.Item.Include("Supplier").Where(x => x.Name.Contains(itemparam.Name) && x.IsDelete == false).ToList();
+            } else if (itemparam.searchBy == 2)
+            {
+                return _context.Item.Include("Supplier").Where(x => x.Supplier.Name.Contains(itemparam.Name) && x.IsDelete == false).ToList();
+            } else if (itemparam.searchBy == 3)
+            {
+                int bln = Convert.ToInt16(itemparam.Name);
+                return _context.Item.Include("Supplier").Where(x => x.CreateDate.Value.Month == bln && x.IsDelete == false).ToList();
+            }
+            else
+            {
+                return _context.Item.Include("Supplier").Where(x => x.IsDelete == false).ToList();
+            }
         }
 
         public bool Update(int? id, ItemParam itemparam)

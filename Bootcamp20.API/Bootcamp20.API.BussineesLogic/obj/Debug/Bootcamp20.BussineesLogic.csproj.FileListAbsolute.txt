@@ -40,3 +40,17 @@ D:\KERJA\Materi\Web API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin
 D:\KERJA\Materi\Web API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\obj\Debug\Bootcamp20.BussineesLogic.csprojResolveAssemblyReference.cache
 D:\KERJA\Materi\Web API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\obj\Debug\Bootcamp20.API.BussineesLogic.exe
 D:\KERJA\Materi\Web API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\obj\Debug\Bootcamp20.API.BussineesLogic.pdb
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\Bootcamp20.API.BussineesLogic.exe.config
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\Bootcamp20.API.BussineesLogic.exe
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\Bootcamp20.API.BussineesLogic.pdb
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\Bootcamp20.API.Common.exe
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\DataAccess.exe
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\EntityFramework.dll
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\EntityFramework.SqlServer.dll
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\Bootcamp20.API.Common.pdb
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\DataAccess.pdb
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\EntityFramework.xml
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\EntityFramework.SqlServer.xml
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\obj\Debug\Bootcamp20.BussineesLogic.csprojResolveAssemblyReference.cache
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\obj\Debug\Bootcamp20.API.BussineesLogic.exe
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\obj\Debug\Bootcamp20.API.BussineesLogic.pdb

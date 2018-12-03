@@ -182,10 +182,12 @@ function Delete(Id){
 }
 
 function Search() {
+    debugger;
     var item = new Object($('#cari').val());
+    var searchby = new Object($('#searchby').val());
     console.log(item);
     $.ajax({
-        url: 'http://localhost:1349/api/Items/Search/'+item,
+        url: 'http://localhost:1349/api/Items/Search/?name='+item+'&&search='+searchby,
         dataType: 'json',
         type: 'GET',
         success: function (data) {
