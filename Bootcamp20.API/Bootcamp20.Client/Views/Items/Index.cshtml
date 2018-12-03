@@ -1,4 +1,4 @@
-﻿
+﻿[]
 @{
     ViewBag.Title = "Index";
 }
@@ -6,8 +6,15 @@
 <h2>Index Item</h2>
 <div class="container">
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" onclick="SaveTampil()">Create New</button>
-    <input type="text" class="form-control pull-right" placeholder="Search" id="cari" />
-    <button type="button" class="btn btn-primary pull-right" onclick="Search()">Find</button>
+    <select class="form-control col-md-4 id=" searchby">
+        <option value="0">SearchBy</option>
+        <option value="1">Item</option>
+        <option value="2">Suppier</option>
+        <option value="3">CreateDate</option>
+    </select>
+    <input type="text" class="form-control col-lg-1" placeholder="Search" id="cari" />
+    <button type="button" class="btn btn-primary col-lg-1" onclick="Search()">Find</button>
+ 
     <table class="table table-hover">
         <thead>
             <tr>

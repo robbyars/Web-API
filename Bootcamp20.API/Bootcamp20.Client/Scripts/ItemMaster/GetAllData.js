@@ -182,7 +182,20 @@ function Delete(Id){
 }
 
 function Search() {
+    debugger;
     var item = new Object($('#cari').val());
+<<<<<<< HEAD
+    var searchby = new Object($('#searchby').val());
+    console.log(item);
+    $.ajax({
+        url: 'http://localhost:1349/api/Items/Search/?name='+item+'&&search='+searchby,
+        dataType: 'json',
+        type: 'GET',
+        success: function (data) {
+            var html = '';
+            for (var i = 0; i < data.length; i++) {
+                html = html + '<tr>';
+=======
     if (item.length == 0) {
         swal("Oops", "Fill in the blank!", "Error");
     } else {
@@ -194,6 +207,7 @@ function Search() {
                 var html = '';
                 for (var i = 0; i < data.length; i++) {
                     html = html + '<tr>';
+>>>>>>> 8a7194c39ae2802ba0cdcbe8f50cea81f4a84040
 
                     html = html + '<td>' + data[i].Name + '</td>';
 

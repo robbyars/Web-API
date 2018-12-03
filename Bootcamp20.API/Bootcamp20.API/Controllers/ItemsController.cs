@@ -47,9 +47,12 @@ namespace Bootcamp20.API.Controllers
         }
 
         [HttpGet]
-        public System.Web.Http.Results.JsonResult<IEnumerable<ItemParam>> Search(string name)
+        public System.Web.Http.Results.JsonResult<IEnumerable<ItemParam>> Search(string name, int search)
         {
-            IEnumerable<ItemParam> list_item = _itemService.Search(name).Select(x => new ItemParam
+            ItemParam itemParam = new ItemParam();
+            itemParam.Name = name;
+            itemParam.searchBy = search;
+            IEnumerable<ItemParam> list_item = _itemService.Search(itemParam).Select(x => new ItemParam
             {
                 Id = x.Id,
                 Name = x.Name,

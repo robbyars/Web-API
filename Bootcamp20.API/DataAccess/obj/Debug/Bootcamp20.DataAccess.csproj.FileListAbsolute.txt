@@ -18,3 +18,23 @@ E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\DataAccess\bin\
 E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\DataAccess\obj\Debug\Bootcamp20.DataAccess.csprojResolveAssemblyReference.cache
 E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\DataAccess\obj\Debug\DataAccess.exe
 E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\DataAccess\obj\Debug\DataAccess.pdb
+D:\KERJA\Materi\Web API\Web-API\Bootcamp20.API\DataAccess\bin\Debug\DataAccess.exe.config
+D:\KERJA\Materi\Web API\Web-API\Bootcamp20.API\DataAccess\bin\Debug\DataAccess.exe
+D:\KERJA\Materi\Web API\Web-API\Bootcamp20.API\DataAccess\bin\Debug\DataAccess.pdb
+D:\KERJA\Materi\Web API\Web-API\Bootcamp20.API\DataAccess\bin\Debug\EntityFramework.dll
+D:\KERJA\Materi\Web API\Web-API\Bootcamp20.API\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\KERJA\Materi\Web API\Web-API\Bootcamp20.API\DataAccess\bin\Debug\EntityFramework.xml
+D:\KERJA\Materi\Web API\Web-API\Bootcamp20.API\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\KERJA\Materi\Web API\Web-API\Bootcamp20.API\DataAccess\obj\Debug\Bootcamp20.DataAccess.csprojResolveAssemblyReference.cache
+D:\KERJA\Materi\Web API\Web-API\Bootcamp20.API\DataAccess\obj\Debug\DataAccess.exe
+D:\KERJA\Materi\Web API\Web-API\Bootcamp20.API\DataAccess\obj\Debug\DataAccess.pdb
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\DataAccess\bin\Debug\DataAccess.exe.config
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\DataAccess\bin\Debug\DataAccess.exe
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\DataAccess\bin\Debug\DataAccess.pdb
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\DataAccess\bin\Debug\EntityFramework.dll
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\DataAccess\bin\Debug\EntityFramework.xml
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\DataAccess\obj\Debug\DataAccess.exe
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\DataAccess\obj\Debug\DataAccess.pdb
+D:\KERJA\TUGAS\Web-API\Bootcamp20.API\DataAccess\obj\Debug\Bootcamp20.DataAccess.csprojResolveAssemblyReference.cache
