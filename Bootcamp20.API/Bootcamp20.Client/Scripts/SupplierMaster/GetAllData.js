@@ -12,6 +12,8 @@ function LoadIndexSupplier(){
                     
                     html = html + '<td>' + data[i].Name + '</td>';
 
+                    html = html + '<td>' + data[i].CreateDate + '</td>';
+
                     html = html + '<td><button onclick="return GetById(' + data[i].Id + ')">Edit</button>';
 
                     html = html + '| <button onclick="return Delete(' + data[i].Id +')">Delete</button>';
@@ -141,6 +143,8 @@ function Search() {
                     html = html + '<tr>';
 
                     html = html + '<td>' + data[i].Name + '</td>';
+
+                    html = html + '<td>' + data[i].CreateDate + '</td>';
 
                     html = html + '<td><button onclick="return GetById(' + data[i].Id + ')">Edit</button>';
 
