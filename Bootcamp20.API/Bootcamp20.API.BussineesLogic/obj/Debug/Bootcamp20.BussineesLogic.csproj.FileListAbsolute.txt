@@ -12,20 +12,6 @@ E:\C#\visual studio 2015\Projects\Bootcamp20.API\Bootcamp20.API.BussineesLogic\b
 E:\C#\visual studio 2015\Projects\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\EntityFramework.SqlServer.xml
 E:\C#\visual studio 2015\Projects\Bootcamp20.API\Bootcamp20.API.BussineesLogic\obj\Debug\Bootcamp20.API.BussineesLogic.exe
 E:\C#\visual studio 2015\Projects\Bootcamp20.API\Bootcamp20.API.BussineesLogic\obj\Debug\Bootcamp20.API.BussineesLogic.pdb
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\Bootcamp20.API.BussineesLogic.exe.config
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\Bootcamp20.API.BussineesLogic.exe
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\Bootcamp20.API.BussineesLogic.pdb
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\Bootcamp20.API.Common.exe
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\DataAccess.exe
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\EntityFramework.dll
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\EntityFramework.SqlServer.dll
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\Bootcamp20.API.Common.pdb
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\DataAccess.pdb
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\EntityFramework.xml
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\EntityFramework.SqlServer.xml
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\obj\Debug\Bootcamp20.BussineesLogic.csprojResolveAssemblyReference.cache
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\obj\Debug\Bootcamp20.API.BussineesLogic.exe
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\obj\Debug\Bootcamp20.API.BussineesLogic.pdb
 D:\KERJA\Materi\Web API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\Bootcamp20.API.BussineesLogic.exe.config
 D:\KERJA\Materi\Web API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\Bootcamp20.API.BussineesLogic.exe
 D:\KERJA\Materi\Web API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\Bootcamp20.API.BussineesLogic.pdb
@@ -54,3 +40,17 @@ D:\KERJA\TUGAS\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\En
 D:\KERJA\TUGAS\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\obj\Debug\Bootcamp20.BussineesLogic.csprojResolveAssemblyReference.cache
 D:\KERJA\TUGAS\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\obj\Debug\Bootcamp20.API.BussineesLogic.exe
 D:\KERJA\TUGAS\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\obj\Debug\Bootcamp20.API.BussineesLogic.pdb
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\Bootcamp20.API.BussineesLogic.exe.config
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\Bootcamp20.API.BussineesLogic.exe
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\Bootcamp20.API.BussineesLogic.pdb
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\Bootcamp20.API.Common.exe
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\DataAccess.exe
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\EntityFramework.dll
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\EntityFramework.SqlServer.dll
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\Bootcamp20.API.Common.pdb
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\DataAccess.pdb
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\EntityFramework.xml
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\bin\Debug\EntityFramework.SqlServer.xml
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\obj\Debug\Bootcamp20.BussineesLogic.csprojResolveAssemblyReference.cache
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\obj\Debug\Bootcamp20.API.BussineesLogic.exe
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.BussineesLogic\obj\Debug\Bootcamp20.API.BussineesLogic.pdb

@@ -1,21 +1,24 @@
-﻿[]
-@{
+﻿@{
     ViewBag.Title = "Index";
 }
 
 <h2>Index Item</h2>
 <div class="container">
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" onclick="SaveTampil()">Create New</button>
-    <select class="form-control col-md-4 id=" searchby">
+    <br />
+    <input type="text" class="form-control col-lg-offset-9" margin="8px" placeholder="Search" id="cari" />
+    <br />
+    <select class="form-control col-lg-offset-9" id="searchby" margin="8px">
         <option value="0">SearchBy</option>
         <option value="1">Item</option>
-        <option value="2">Suppier</option>
+        <option value="2">Supplier</option>
         <option value="3">CreateDate</option>
     </select>
-    <input type="text" class="form-control col-lg-1" placeholder="Search" id="cari" />
-    <button type="button" class="btn btn-primary col-lg-1" onclick="Search()">Find</button>
- 
-    <table class="table table-hover">
+    <br/>
+    <button type="button" class="btn btn-primary pull-left" data-toggle="modal" data-target="#myModal" onclick="SaveTampil()">Create New</button>
+    <button type="button" class="btn btn-primary pull-right" margin="8px" onclick="Search()">Find</button> 
+    <br/>
+    <hr/>
+    <table class="table table-hover" id="datatables">
         <thead>
             <tr>
                 <th>
@@ -83,6 +86,17 @@
 </div>
 
 @section Scripts{
+<script src="~/Content/datatables/jquery-3.3.1.js"></script>
+    <link href="~/Content/datatables/jquery.dataTables.min.css" rel="stylesheet" />
+    <script src="~/Content/datatables/jquery.dataTables.min.js"></script>
+<link href="~/Content/datatables/buttons.dataTables.min.css" rel="stylesheet" />
+<script src="~/Content/datatables/dataTables.buttons.min.js"></script>
+<script src="~/Content/datatables/buttons.flash.min.js"></script>
+<script src="~/Content/datatables/jszip.min.js"></script>
+<script src="~/Content/datatables/pdfmake.min.js"></script>
+<script src="~/Content/datatables/vfs_fonts.js"></script>
+<script src="~/Content/datatables/buttons.html5.min.js"></script>
+<script src="~/Content/datatables/buttons.print.min.js"></script>
     <script src="~/Content/sweetalert/sweetalert.min.js"></script>
     <link href="~/Content/sweetalert/sweetalert.css" rel="stylesheet" />
     <script src="~/Scripts/ItemMaster/GetAllData.js"></script>

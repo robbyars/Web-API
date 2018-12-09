@@ -10,18 +10,6 @@ E:\C#\visual studio 2015\Projects\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug
 E:\C#\visual studio 2015\Projects\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\EntityFramework.SqlServer.xml
 E:\C#\visual studio 2015\Projects\Bootcamp20.API\Bootcamp20.API.Common\obj\Debug\Bootcamp20.API.Common.exe
 E:\C#\visual studio 2015\Projects\Bootcamp20.API\Bootcamp20.API.Common\obj\Debug\Bootcamp20.API.Common.pdb
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\Bootcamp20.API.Common.exe.config
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\Bootcamp20.API.Common.exe
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\Bootcamp20.API.Common.pdb
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\DataAccess.exe
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\EntityFramework.dll
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\EntityFramework.SqlServer.dll
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\DataAccess.pdb
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\EntityFramework.xml
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\EntityFramework.SqlServer.xml
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\obj\Debug\Bootcamp20.Common.csprojResolveAssemblyReference.cache
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\obj\Debug\Bootcamp20.API.Common.exe
-E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\obj\Debug\Bootcamp20.API.Common.pdb
 D:\KERJA\Materi\Web API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\Bootcamp20.API.Common.exe.config
 D:\KERJA\Materi\Web API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\Bootcamp20.API.Common.exe
 D:\KERJA\Materi\Web API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\Bootcamp20.API.Common.pdb
@@ -46,3 +34,15 @@ D:\KERJA\TUGAS\Web-API\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\EntityFram
 D:\KERJA\TUGAS\Web-API\Bootcamp20.API\Bootcamp20.API.Common\obj\Debug\Bootcamp20.Common.csprojResolveAssemblyReference.cache
 D:\KERJA\TUGAS\Web-API\Bootcamp20.API\Bootcamp20.API.Common\obj\Debug\Bootcamp20.API.Common.exe
 D:\KERJA\TUGAS\Web-API\Bootcamp20.API\Bootcamp20.API.Common\obj\Debug\Bootcamp20.API.Common.pdb
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\Bootcamp20.API.Common.exe.config
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\Bootcamp20.API.Common.exe
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\Bootcamp20.API.Common.pdb
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\DataAccess.exe
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\EntityFramework.dll
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\EntityFramework.SqlServer.dll
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\DataAccess.pdb
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\EntityFramework.xml
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\bin\Debug\EntityFramework.SqlServer.xml
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\obj\Debug\Bootcamp20.Common.csprojResolveAssemblyReference.cache
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\obj\Debug\Bootcamp20.API.Common.exe
+E:\C#\visual studio 2015\Projects\WEB API\Web-API\Bootcamp20.API\Bootcamp20.API.Common\obj\Debug\Bootcamp20.API.Common.pdb

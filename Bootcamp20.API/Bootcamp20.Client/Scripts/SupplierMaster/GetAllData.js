@@ -1,10 +1,20 @@
-﻿LoadIndexSupplier();
+﻿$(document).ready(function () {
+    $('#datatables').DataTable({
+        'ajax':LoadIndexSupplier(),
+        dom: 'Bfrtip',
+        buttons: [
+            'copy', 'csv', 'excel', 'pdf', 'print'
+        ]
+    });
+    LoadIndexSupplier();
+});
 
 function LoadIndexSupplier(){
         $.ajax({
             url: 'http://localhost:1349/api/Suppliers',
             dataType: 'json',
             type: 'GET',
+            async : false,
             success: function (data) {
                 var html = '';
                 for (var i = 0; i < data.length; i++) {
@@ -171,6 +181,8 @@ function Search() {
                     html = html + '<tr>';
 
                     html = html + '<td>' + data[i].Name + '</td>';
+
+                    html = html + '<td>' + data[i].CreateDate + '</td>';
 
                     html = html + '<td><button onclick="return GetById(' + data[i].Id + ')">Edit</button>';
 
